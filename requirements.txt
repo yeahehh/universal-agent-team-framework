@@ -1,0 +1,15 @@
+# 核心依赖
+requests>=2.31.0
+
+# 数据库支持
+pymysql>=1.1.0
+psycopg2-binary>=2.9.9
+
+# LLM 支持（可选）
+openai>=1.0.0
+
+# 工具类
+numpy>=1.24.0
+
+# 开发工具
+pytest>=7.4.0

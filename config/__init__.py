@@ -1,0 +1,45 @@
+"""配置模块初始化
+导入所有配置模块
+"""
+
+from .system_config import (
+    SYSTEM_NAME,
+    SYSTEM_VERSION,
+    LOG_CONFIG,
+    COMM_BUS_CONFIG,
+    MEMORY_CONFIG,
+    TASK_CONFIG,
+    AGENT_CONFIG,
+    PLUGIN_CONFIG,
+    PERFORMANCE_CONFIG
+)
+
+from .agent_config import (
+    MANAGER_AGENT_CONFIG,
+    EXECUTOR_AGENT_CONFIG,
+    ANALYST_AGENT_CONFIG,
+    MONITOR_AGENT_CONFIG,
+    AGENT_STATUS_CONFIG,
+    AGENT_PRIORITY_CONFIG
+)
+
+__all__ = [
+    # 系统配置
+    "SYSTEM_NAME",
+    "SYSTEM_VERSION",
+    "LOG_CONFIG",
+    "COMM_BUS_CONFIG",
+    "MEMORY_CONFIG",
+    "TASK_CONFIG",
+    "AGENT_CONFIG",
+    "PLUGIN_CONFIG",
+    "PERFORMANCE_CONFIG",
+    
+    # Agent 配置
+    "MANAGER_AGENT_CONFIG",
+    "EXECUTOR_AGENT_CONFIG",
+    "ANALYST_AGENT_CONFIG",
+    "MONITOR_AGENT_CONFIG",
+    "AGENT_STATUS_CONFIG",
+    "AGENT_PRIORITY_CONFIG"
+]
