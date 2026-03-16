@@ -1,3 +1,9 @@
+![License](https://img.shields.io/github/license/yeahehh/universal-agent-team-framework?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/yeahehh/universal-agent-team-framework?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yeahehh/universal-agent-team-framework?color=orange)
+![GitHub forks](https://img.shields.io/github/forks/yeahehh/universal-agent-team-framework?style=social)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+
 # 通用 Agent 工作团队框架
 
 一个基于 Python 的多 Agent 协作系统框架，支持插件化扩展和灵活配置。
